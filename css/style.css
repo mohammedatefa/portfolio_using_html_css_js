@@ -1,0 +1,489 @@
+/* start main rules*/
+body{
+   
+    font-family: Arial,tahoma 
+}
+
+.container{
+    width: 1170px;
+    margin:auto;
+}
+.clearfix{
+    clear: both;
+}
+/* end main rules*/
+
+
+/* start header */
+.slider{
+    background-image: url(../images/Foursales-laptop-xicara-e-oculos-sobre-mesa-de-madeira.jpg);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: 700px;
+    background-attachment: fixed;
+}
+.slider .intro{
+    padding: 300px;
+    color: #fff;
+    text-align: center;
+}
+.slider .intro h1{
+    margin: 0 auto;
+    font-size: 50px;
+    width: 600px;
+    border-bottom: 4px solid #FFF;
+    border-top: 4px solid #FFF;
+    padding: 5px 0px;
+}
+.slider .intro button{
+    background: none;
+    color: #FFF;
+    font-weight: bold;
+    border: 2px solid #FFF;
+    font-size: 20px;
+    margin-top: 30px;
+    padding: 10px 20px;
+    border-radius: 25px 25px;
+}
+.slider .intro button:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 3px 3px #FFF;
+}
+.navbar{
+    background-color: #252f31;
+    color: #fff;
+    overflow: hidden;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+}
+.navbar h2{float: left;}
+.navbar h2 span{color:#2ecc71 }
+.navbar ul{
+    list-style: none;
+    padding-left: 0px;
+    float: right;
+    overflow: hidden;
+}
+.navbar ul li{
+    float: left;
+    padding: 10px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.navbar ul li.active a {
+    color:#2ecc71;
+}
+.navbar ul li a:hover{
+    color: #2ecc71 ;
+}
+/* end headr */
+
+
+/*start features*/
+.features{
+    overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 40px
+}
+.feat{
+    float: left;
+    width: 33.33333%;
+    height: 150px;
+}
+.feat h2{
+    color: #545D5F;
+}
+.feat p{
+    color:#545D5F;
+    line-height:1.7;
+}
+/*end featuerw*/
+
+/*start about me*/
+.about-me{
+    overflow: hidden;
+    background-color: #F2F2F2;
+}
+.about-me .image{
+    float: left;
+    width: 40%;
+}
+.about-me .image img{
+    width: 100%; 
+    padding: 3px;
+    border: 2px solid #ccc;
+    background-color: #fff;
+    box-shadow: 8px 8px 8px #ddd;
+    
+}
+.about-me .info{
+    overflow: hidden;
+    float: left;
+    width: 60%;
+}
+.about-me .info h2{
+    margin: 30px 0 20px 40px ;
+    color: #555;
+}
+.about-me .info > p{
+    margin: 0 0 10px 40px;
+    line-height:1.7;
+}
+.about-me .info p:last-of-type{
+    margin-top: 25px;
+}
+.about-me .info  p{
+    line-height:1.7;
+    color: #666;
+}
+.about-me .info .hoppies {
+    overflow: hidden;
+    margin: 15px 0 0 40px
+}
+.about-me .info .hoppies .content{
+    float: left;
+    width: 50%;
+    overflow: hidden;
+}
+.about-me .info .hoppies {
+    margin-top: 20px ;
+}
+.about-me .info .hoppies .content .icon{
+    float: left;
+    width: 12%;
+    margin-right: 5%
+}
+.about-me .info .hoppies .content .icon i{
+   margin-top: 32px;
+   color: #2DCC70
+
+}
+.about-me .info .hoppies .content .para{
+    float: left;
+    width: 83%;
+}
+.about-me .info .hoppies .content .para p{ margin-top: 0px;}
+.about-me .info .hoppies .content .para h3{margin-bottom: 5px}
+.about-me .info .hoppies h3{
+    color: #555;
+
+}
+
+/*end about me*/
+/*start my skils*/
+.my-skils{
+    overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    
+}
+.my-skils .skils{
+    float: left;
+    width: 50%;
+}
+.my-skils .proggress{
+    float: left;
+    width: 50%;
+}
+.my-skils .skils h2{
+    margin: 30px 0 20px 40px ;
+    color: #555;
+}
+.my-skils .skils > p{
+    margin: 0 0 10px 40px;
+    line-height:1.7;
+}
+.my-skils .skils p:last-of-type{
+    margin-top: 25px;
+}
+.my-skils .skils button{
+    margin: 20px 0 0 40px ;
+    background: none;
+    text-transform: uppercase;
+    color: #2DCC70;
+    border: 1px solid #2DCC70;
+    font-size: 20px;
+    padding: 5px 30px;
+    font-weight: bold;
+}
+.my-skils .skils button:hover{
+    background-color: #2DCC70;
+    color: #fff
+}
+.my-skils .proggress .technique h3{
+    color: #555;
+}
+.my-skils .proggress .technique{
+    margin-left: 50px;
+    margin-top: 30px
+    
+}
+.my-skils .proggress .technique div{
+    background-color:#F2F2F2;
+    height: 25px;    
+}
+.my-skils .proggress .technique div span{
+    color:  #fff;
+    background-color:#2DCC70;
+    height: 25px;
+    display: block;
+    line-height: 25px;
+    text-align: right;
+    font-weight: bolder
+    
+    
+}
+/*end my skils*/
+
+/*start resume*/
+.resume{
+    overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    text-align: center;
+    background-color: #F2F2F2;
+    color: #555;
+}
+.resume h2{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.resume button{
+   
+    background: none;
+    color: #2DCC70;
+    border: 1px solid #2DCC70;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 8px 15px;
+}
+.resume button:hover
+{
+     background-color: #2DCC70;
+    color: #fff
+}
+/*end resume*/
+/*start my Education*/
+.my-education{
+    overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    
+}
+.my-education hr{
+    margin: 20px 0; /*when i make it to be 20it disapper */
+    height: 1px;
+    border:0px;
+    background-color: #999;
+}
+.my-education .education{
+    float: left;
+    width: 50%;
+    margin-right: 5%;
+}
+
+.my-education .exp{
+    float: left;
+    width: 40%;
+}
+.my-education .education h2{
+    margin: 30px 0 20px 40px ;
+    color: #555;
+}
+.my-education .education > p{
+    margin: 0 0 10px 40px;
+    line-height:1.7;
+}
+.my-education .education p:last-of-type{
+    margin-top: 25px;
+}
+.my-education .exp h3{
+    color: #555;
+    margin-top: 80px;
+    margin-bottom: 8px;
+    font-weight: bold
+}
+.my-education .exp p{
+    color: #999;
+}
+.my-education .exp span{
+    background-color: #2DCC70;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 10px;
+    display: inline-block;
+        
+}   
+.my-education .exp h3:last-of-type{
+    margin-top: 40px
+}
+.my-education .exp #h3{margin-top: 40px}
+/*end my education*/
+/*start testmunials*/
+.testmunials{
+    overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    text-align: center;
+    background-color: #F2F2F2;
+}
+.testmunials{
+    overflow: hidden;
+    line-height: 1.7;
+    color: #999;
+    font-weight: bold;
+    font-family: Arial,tahoma
+}
+.testmunials h3{
+    color: #555;
+}
+.testmunials ul{list-style: none;padding-left: 0px;text-align: center;}
+.testmunials ul li{
+    width: 8px;
+    height: 8px;
+    border: 2px solid  #2DCC70;
+    border-radius: 100%;
+    display: inline-block;
+    
+}
+.testmunials ul li.active{
+    background-color: #2DCC70;
+}
+.testmunials ul li:hover{
+    cursor: pointer;
+    background-color: #2DCC70;
+}
+/*end testmunials*/
+/*start portfolio*/
+.portfolio{
+     padding-top: 50px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+.portfolio h2{
+    color: #555;
+    font-weight: bold;
+}
+.portfolio p{
+    color: #999;
+    line-height: 1.7;
+    padding:15px 50px 20px 50px;
+    
+}
+.portfolio .my-work{
+    overflow: hidden;
+}
+.portfolio .my-work>div{
+    float: left;
+    width: 33.333335%;
+    margin-bottom: 15px;
+}
+.portfolio .my-work>div img{
+    width: 92%;
+    padding: 3px;
+    border: 2px solid #ccc;
+    background-color: #fff;
+    box-shadow: 8px 8px 8px #ccc;
+}
+
+/*End portfolio*/
+
+/*start my contact*/
+.contact-me{
+    overflow: hidden;
+    background-color: #252F31;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    
+}
+.contact-me .contact{
+    float: left;
+    width: 50%;
+}
+.contact-me .info{
+    float: left;
+    padding-left: 5%;
+    width: 45%;
+    margin-top: 20px;
+}
+.contact-me .contact h2{ margin-left: 40px;color: #fff;}
+.contact-me .contact p{ color:#4B5557;margin-left: 40px;line-height: 1.7 }
+.contact-me .contact p strong{color:#d1d6da }
+.contact-me .info label{
+   color:#d1d6da;
+    display: block;
+    margin-top: 25;
+    margin-bottom: 14px;
+    font-weight: bold
+}
+.contact-me .info input[type="text"],textarea{
+    width: 80%;
+    height: 40px;
+    background-color: #4B5557;
+    border: 0px;
+    color:#fff;
+}
+.contact-me .info textarea{
+    height: 200px
+}
+.contact-me .info input[type="submit"]{
+    margin-top: 20px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    background-color: #191E22;
+    border: 0px;
+    padding: 10px 20px
+    
+}
+.contact-me .info input[type="submit"]:hover{
+    cursor: pointer
+}
+/*end my skils*/
+/*start footer*/
+.footer{
+    overflow: hidden;
+    color: #4B5557;
+    background-color: #191E22;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.footer span{
+    float: left;
+        
+}
+.footer ul{
+    list-style: none;
+    float: right;
+    padding-left:0px;
+    padding-right:190px;
+    margin: 0;      
+}
+.footer ul li{
+    display: inline-block;
+}
+.footer ul li i:hover{
+    color: #fff;
+    cursor: pointer;
+}
+/*end footer*/
+
+/*frame work*/
+button:hover{
+    cursor: pointer;
+}
+
+ 
+
+
+
+
+
+
+
